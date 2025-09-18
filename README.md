@@ -37,3 +37,9 @@
    ```bash
    git clone https://github.com/DgtrDN/diplom.git
    cd diplom
+2. Установите зависимости:
+```bash
+pip install -r requirements.txt
+3. Запустите Jupyter Notebook:
+```bash
+jupyter notebook diplom_telco_customer.ipynb
