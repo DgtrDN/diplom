@@ -77,8 +77,7 @@
     source venv/bin/activate  # Для Windows: venv\Scripts\activate
     pip install -r requirements.txt
     ```
-    *(Файл `requirements.txt` можно сгенерировать из вашего ноутбука командой `pip freeze > requirements.txt`)*
-
+    
 3.  **Запустите Jupyter Notebook:**
     ```bash
     jupyter notebook diplom_telco_customer.ipynb
