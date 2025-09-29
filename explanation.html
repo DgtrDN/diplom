@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divEXP71ZB4S3U69OF"></div>
+        <div class="lime top_div" id="top_divKXECPANW19M5YV9"></div>
         
         <script>
-        var top_div = d3.select('#top_divEXP71ZB4S3U69OF').classed('lime top_div', true);
+        var top_div = d3.select('#top_divKXECPANW19M5YV9').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["Не уйдет", "Уйдет"], [0.3682850451538522, 0.6317149548461478]);
+            var pp = new lime.PredictProba(pp_svg, ["Не уйдет", "Уйдет"], [0.421104602274299, 0.578895397725701]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["Не уйдет", "Уйдет"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["Contract_Two year <= 0.00", 0.17351588183400082], ["0.00 < InternetService_Fiber optic <= 1.00", 0.11524322882706867], ["Contract_One year <= 0.00", 0.0952550642693989], ["InternetService_No <= 0.00", 0.0856899321047512], ["0.00 < PaymentMethod_Electronic check <= 1.00", 0.049583564780029114]], 1, exp_div);
+                exp.show([["Contract_Two year <= 0.00", 0.17500107409423488], ["0.00 < InternetService_Fiber optic <= 1.00", 0.10904762869154078], ["Contract_One year <= 0.00", 0.10055019843647767], ["InternetService_No <= 0.00", 0.08578512129534509], ["0.00 < PaymentMethod_Electronic check <= 1.00", 0.049240904346944496]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["Contract_Two year", "0.00", 0.17351588183400082], ["InternetService_Fiber optic", "1.00", 0.11524322882706867], ["Contract_One year", "0.00", 0.0952550642693989], ["InternetService_No", "0.00", 0.0856899321047512], ["PaymentMethod_Electronic check", "1.00", 0.049583564780029114]], 1, raw_div);
+            exp.show_raw_tabular([["Contract_Two year", "0.00", 0.17500107409423488], ["InternetService_Fiber optic", "1.00", 0.10904762869154078], ["Contract_One year", "0.00", 0.10055019843647767], ["InternetService_No", "0.00", 0.08578512129534509], ["PaymentMethod_Electronic check", "1.00", 0.049240904346944496]], 1, raw_div);
         
         </script>
         </body></html>
